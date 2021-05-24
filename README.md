@@ -10,8 +10,6 @@ This package allows for easy scheduling and updating of Zoom meetings within you
 pip install django-zoom-meetings
 ```
 
-## Add django-zoom-meeting to your list of installed apps 
-
 ## Creating a meeting
 ```python
 from django_zoom_meetings import ZoomMeetings

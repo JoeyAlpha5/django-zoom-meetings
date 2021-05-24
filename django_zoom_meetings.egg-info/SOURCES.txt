@@ -1,0 +1,8 @@
+README.md
+setup.py
+django_zoom_meetings/__init__.py
+django_zoom_meetings.egg-info/PKG-INFO
+django_zoom_meetings.egg-info/SOURCES.txt
+django_zoom_meetings.egg-info/dependency_links.txt
+django_zoom_meetings.egg-info/requires.txt
+django_zoom_meetings.egg-info/top_level.txt
