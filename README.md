@@ -27,7 +27,7 @@ create_meeting = my_zoom.CreateMeeting(date,str_topic,str_meeting_duration,str_m
 ## Delete a meeting
 ```python
 # to delete a meeting simply pass the meeting id as a string with no spaces
-from django-zoom-meetings import ZoomMeetings
+from django_zoom_meetings import ZoomMeetings
 my_zoom = ZoomMeetings(api_key,secret_key,zoom_email)
 delete_meeting = my_zoom.DeleteMeeting(str_meeting_id)
 ```
