@@ -15,15 +15,18 @@ pip install django-zoom-meetings
 ## Creating a meeting
 ```python
 from django-zoom-meetings import ZoomMeetings
+# Creat a JWT app your account https://marketplace.zoom.us/ and use
+# the api_key, secret_key and your zoom email address to create a ZoomMeetings instance
 my_zoom = ZoomMeetings(api_key,secret_key,zoom_email)
+
+# required parameters are date,topic,duration and the password of the meeting 
 my_zoom.CreateMeeting(date,str_topic,str_meeting_duration,str_meeting_password)
 ```
 
 ## Delete a meeting
 ```python
+# to delete a meeting simply pass the meeting id as a string with no spaces
 from django-zoom-meetings import ZoomMeetings
 my_zoom = ZoomMeetings(api_key,secret_key,zoom_email)
 my_zoom.DeleteMeeting(str_meeting_id)
 ```
-
-**Please note that the str_meeting_id must exclude spaces**
