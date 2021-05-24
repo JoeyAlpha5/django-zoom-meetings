@@ -7,7 +7,7 @@ import json
 class ZoomMeetings:
     def __init__(self,api_key,secret_key,user_email):
         self.time_now = datetime.datetime.now()
-        self.expiration_time = self.time_now+datetime.timedelta(minutes=5)
+        self.expiration_time = self.time_now+datetime.timedelta(minutes=20)
         self.expiration_in_seconds = round(self.expiration_time.timestamp())
         # token requirements
         self.headers = {"alg": "HS256","typ": "JWT"}
