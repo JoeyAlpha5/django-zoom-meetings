@@ -14,7 +14,7 @@ pip install django-zoom-meetings
 
 ## Creating a meeting
 ```python
-from django-zoom-meetings import ZoomMeetings
+from django_zoom_meetings import ZoomMeetings
 # Creat a JWT app your account https://marketplace.zoom.us/ and use
 # the api_key, secret_key and your zoom email address to create a ZoomMeetings instance
 my_zoom = ZoomMeetings(api_key,secret_key,zoom_email)

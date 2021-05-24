@@ -1,1 +1,1 @@
-django-zoom-meetings
+django_zoom_meetings
