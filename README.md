@@ -4,6 +4,9 @@
 ## Python package for creating and deleting zoom meetings
 This package allows for easy scheduling and updating of Zoom meetings within your django app.
 
+##### Creat a JWT app on your Zoom account https://marketplace.zoom.us/ and use
+##### the api_key, secret_key and your zoom email address to create a ZoomMeetings instance
+
 
 ## installation
 ```python
