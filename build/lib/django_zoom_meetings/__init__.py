@@ -31,3 +31,10 @@ class ZoomMeetings:
         header = {'authorization': 'Bearer '+self.request_token}
         zoom_delete_meeting = requests.delete(url, headers=header)
         return zoom_delete_meeting
+
+    def GetMeeting(self,meeting_id):
+        url = 'https://api.zoom.us/v2/meetings/'+str(meeting_id)
+        header = {'authorization': 'Bearer '+self.request_token}
+        get_zoom_meeting = requests.get(url, headers=header)
+        return json.loads(get_zoom_meeting.text)
+

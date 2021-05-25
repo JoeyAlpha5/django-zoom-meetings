@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.8' 
+VERSION = '0.0.9' 
 DESCRIPTION = 'Python package for creating and deleting zoom meetings'
 LONG_DESCRIPTION = 'This package allows for easy scheduling and updating of Zoom meetings within your django app. please visit https://github.com/JoeyAlpha5/django-zoom-meetings for more details'
 

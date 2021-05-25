@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: django-zoom-meetings
-Version: 0.0.8
+Version: 0.0.9
 Summary: Python package for creating and deleting zoom meetings
 Home-page: https://github.com/JoeyAlpha5/django-zoom-meetings
 Author: Jalome Chirwa
