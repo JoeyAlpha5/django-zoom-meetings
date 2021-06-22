@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.9' 
+VERSION = '0.1.0' 
 DESCRIPTION = 'Python package for creating and deleting zoom meetings'
 LONG_DESCRIPTION = 'This package allows for easy scheduling and updating of Zoom meetings within your django app. please visit https://github.com/JoeyAlpha5/django-zoom-meetings for more details'
 
@@ -18,7 +18,7 @@ setup(
         install_requires=['PyJWT','requests'], # add any additional packages that 
         # needs to be installed along with your package. Eg: 'caer'
         
-        keywords=['python', 'first package','zoom'],
+        keywords=['python', 'django','zoom'],
         classifiers= [
             "Development Status :: 3 - Alpha",
             "Intended Audience :: Education",
